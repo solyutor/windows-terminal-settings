@@ -1,76 +1,92 @@
 {
     "$schema": "https://aka.ms/terminal-profiles-schema",
-    "actions":
-    [{
-            "command": {
+    "actions": 
+    [
+        {
+            "command": 
+            {
                 "action": "copy",
                 "singleLine": false
             },
             "keys": "ctrl+c"
-        }, {
+        },
+        {
             "command": "find",
             "keys": "ctrl+shift+f"
-        }, {
+        },
+        {
             "command": "paste",
             "keys": "ctrl+v"
-        }, {
-            "command": {
+        },
+        {
+            "command": 
+            {
+                "action": "globalSummon",
+                "desktop": "toCurrent",
+                "monitor": "any",
+                "name": "_quake",
+                "toggleVisibility": true
+            },
+            "keys": "win+`"
+        },
+        {
+            "command": 
+            {
                 "action": "splitPane",
                 "split": "auto",
                 "splitMode": "duplicate"
             },
             "keys": "alt+shift+d"
-        }, {
-            "keys": "win+`",
-            "command": {
-                "action": "globalSummon",
-                "name": "_quake",
-                "dropdownDuration": 200,
-                "toggleVisibility": true,
-                "monitor": "any",
-                "desktop": "toCurrent"
-            }
         }
     ],
     "copyFormatting": "none",
     "copyOnSelect": false,
     "defaultProfile": "{2ece5bfe-50ed-5f3a-ab87-5cd4baafed2b}",
-    "profiles": {
-        "defaults": {
-            "font": {
+    "profiles": 
+    {
+        "defaults": 
+        {
+            "font": 
+            {
                 "face": "JetBrains Mono"
             }
         },
-        "list":
-        [{
+        "list": 
+        [
+            {
                 "commandline": "powershell.exe",
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
                 "hidden": false,
                 "name": "Windows PowerShell"
-            }, {
+            },
+            {
                 "commandline": "cmd.exe",
                 "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
                 "hidden": false,
                 "name": "Command Prompt"
-            }, {
+            },
+            {
                 "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
                 "hidden": false,
                 "name": "Azure Cloud Shell",
                 "source": "Windows.Terminal.Azure"
-            }, {
+            },
+            {
                 "guid": "{2ece5bfe-50ed-5f3a-ab87-5cd4baafed2b}",
                 "hidden": false,
                 "name": "Git Bash",
                 "source": "Git"
-            }, {
-                "commandline": "C:\\Users\\juso\\AppData\\Local\\Far Manager x64\\Far.exe",
+            },
+            {
+                "commandline": "%LOCALAPPDATA%\\Far Manager x64\\Far.exe",
                 "guid": "{4bdc9186-4593-4fe5-8dd1-f109c77c5fd7}",
                 "name": "Far Manager"
             }
         ]
     },
-    "schemes":
-    [{
+    "schemes": 
+    [
+        {
             "background": "#0C0C0C",
             "black": "#0C0C0C",
             "blue": "#0037DA",
@@ -92,7 +108,8 @@
             "selectionBackground": "#FFFFFF",
             "white": "#CCCCCC",
             "yellow": "#C19C00"
-        }, {
+        },
+        {
             "background": "#012456",
             "black": "#0C0C0C",
             "blue": "#0037DA",
@@ -114,7 +131,8 @@
             "selectionBackground": "#FFFFFF",
             "white": "#CCCCCC",
             "yellow": "#C19C00"
-        }, {
+        },
+        {
             "background": "#282C34",
             "black": "#282C34",
             "blue": "#61AFEF",
@@ -136,7 +154,8 @@
             "selectionBackground": "#FFFFFF",
             "white": "#DCDFE4",
             "yellow": "#E5C07B"
-        }, {
+        },
+        {
             "background": "#FAFAFA",
             "black": "#383A42",
             "blue": "#0184BC",
@@ -158,7 +177,8 @@
             "selectionBackground": "#FFFFFF",
             "white": "#FAFAFA",
             "yellow": "#C18301"
-        }, {
+        },
+        {
             "background": "#002B36",
             "black": "#002B36",
             "blue": "#268BD2",
@@ -180,7 +200,8 @@
             "selectionBackground": "#FFFFFF",
             "white": "#EEE8D5",
             "yellow": "#B58900"
-        }, {
+        },
+        {
             "background": "#FDF6E3",
             "black": "#002B36",
             "blue": "#268BD2",
@@ -202,7 +223,8 @@
             "selectionBackground": "#FFFFFF",
             "white": "#EEE8D5",
             "yellow": "#B58900"
-        }, {
+        },
+        {
             "background": "#000000",
             "black": "#000000",
             "blue": "#3465A4",
@@ -224,7 +246,8 @@
             "selectionBackground": "#FFFFFF",
             "white": "#D3D7CF",
             "yellow": "#C4A000"
-        }, {
+        },
+        {
             "background": "#FFFFFF",
             "black": "#000000",
             "blue": "#3465A4",
@@ -246,7 +269,8 @@
             "selectionBackground": "#FFFFFF",
             "white": "#D3D7CF",
             "yellow": "#C4A000"
-        }, {
+        },
+        {
             "background": "#000000",
             "black": "#000000",
             "blue": "#000080",
