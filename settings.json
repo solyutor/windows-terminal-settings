@@ -57,24 +57,30 @@
                 "commandline": "powershell.exe",
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
                 "hidden": false,
-                "name": "Windows PowerShell"
+                "name": "Windows PowerShell",
+                "tabTitle": "PowerShell"
             },
             {
                 "commandline": "cmd.exe",
                 "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
                 "hidden": false,
-                "name": "Command Prompt"
+                "name": "Command Prompt",
+                "tabTitle": "Cmd"
             },
             {
                 "guid": "{2ece5bfe-50ed-5f3a-ab87-5cd4baafed2b}",
                 "hidden": false,
                 "name": "Git Bash",
-                "source": "Git"
+                "source": "Git",
+                "tabTitle": "Git Bash"
             },
             {
+                "colorScheme": "Vintage",
                 "commandline": "%LOCALAPPDATA%\\Far Manager x64\\Far.exe",
                 "guid": "{4bdc9186-4593-4fe5-8dd1-f109c77c5fd7}",
-                "name": "Far Manager"
+                "name": "Far Manager",
+                "suppressApplicationTitle": true,
+                "tabTitle": "Far Manager"
             }
         ]
     },
@@ -288,6 +294,8 @@
             "yellow": "#808000"
         }
     ],
+    "showTabsInTitlebar": false,
+    "showTerminalTitleInTitlebar": false,
     "startOnUserLogin": true,
-    "tabWidthMode": "titleLength"
+    "tabWidthMode": "equal"
 }
