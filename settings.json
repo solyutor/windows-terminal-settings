@@ -1,4 +1,5 @@
 {
+    "$help": "https://aka.ms/terminal-documentation",
     "$schema": "https://aka.ms/terminal-profiles-schema",
     "actions": 
     [
@@ -41,7 +42,15 @@
     ],
     "copyFormatting": "none",
     "copyOnSelect": false,
-    "defaultProfile": "{2ece5bfe-50ed-5f3a-ab87-5cd4baafed2b}",
+    "defaultProfile": "{4bdc9186-4593-4fe5-8dd1-f109c77c5fd7}",
+    "firstWindowPreference": "persistedWindowLayout",
+    "launchMode": "maximized",
+    "newTabMenu": 
+    [
+        {
+            "type": "remainingProfiles"
+        }
+    ],
     "profiles": 
     {
         "defaults": 
@@ -54,25 +63,17 @@
         "list": 
         [
             {
-                "commandline": "powershell.exe",
+                "commandline": "pwsh.exe",
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
                 "hidden": false,
                 "name": "Windows PowerShell",
                 "tabTitle": "PowerShell"
             },
             {
-                "commandline": "cmd.exe",
                 "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
                 "hidden": false,
                 "name": "Command Prompt",
                 "tabTitle": "Cmd"
-            },
-            {
-                "guid": "{2ece5bfe-50ed-5f3a-ab87-5cd4baafed2b}",
-                "hidden": false,
-                "name": "Git Bash",
-                "source": "Git",
-                "tabTitle": "Git Bash"
             },
             {
                 "colorScheme": "Vintage",
@@ -81,6 +82,14 @@
                 "name": "Far Manager",
                 "suppressApplicationTitle": true,
                 "tabTitle": "Far Manager"
+            },
+            {
+                "commandline": "\"C:\\Program Files\\Git\\bin\\sh.exe\" --login",
+                "guid": "{2ece5bfe-50ed-5f3a-ab87-5cd4baafed2b}",
+                "hidden": false,
+                "name": "Git Bash",
+                "startingDirectory": "%HOMEDRIVE%%HOMEPATH%",
+                "tabTitle": "Git Bash"
             }
         ]
     },
@@ -297,5 +306,50 @@
     "showTabsInTitlebar": false,
     "showTerminalTitleInTitlebar": false,
     "startOnUserLogin": true,
-    "tabWidthMode": "equal"
+    "tabWidthMode": "equal",
+    "themes": 
+    [
+        {
+            "name": "legacyDark",
+            "tab": 
+            {
+                "background": null,
+                "showCloseButton": "always",
+                "unfocusedBackground": null
+            },
+            "window": 
+            {
+                "applicationTheme": "dark",
+                "useMica": false
+            }
+        },
+        {
+            "name": "legacyLight",
+            "tab": 
+            {
+                "background": null,
+                "showCloseButton": "always",
+                "unfocusedBackground": null
+            },
+            "window": 
+            {
+                "applicationTheme": "light",
+                "useMica": false
+            }
+        },
+        {
+            "name": "legacySystem",
+            "tab": 
+            {
+                "background": null,
+                "showCloseButton": "always",
+                "unfocusedBackground": null
+            },
+            "window": 
+            {
+                "applicationTheme": "system",
+                "useMica": false
+            }
+        }
+    ]
 }
