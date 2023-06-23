@@ -4,6 +4,10 @@
     "actions": 
     [
         {
+            "command": "paste",
+            "keys": "ctrl+v"
+        },
+        {
             "command": 
             {
                 "action": "copy",
@@ -16,10 +20,6 @@
             "keys": "ctrl+shift+f"
         },
         {
-            "command": "paste",
-            "keys": "ctrl+v"
-        },
-        {
             "command": 
             {
                 "action": "globalSummon",
@@ -27,8 +27,7 @@
                 "monitor": "any",
                 "name": "_quake",
                 "toggleVisibility": true
-            },
-            "keys": "win+`"
+            }
         },
         {
             "command": 
@@ -42,9 +41,7 @@
     ],
     "copyFormatting": "none",
     "copyOnSelect": false,
-    "defaultProfile": "{4bdc9186-4593-4fe5-8dd1-f109c77c5fd7}",
-    "firstWindowPreference": "persistedWindowLayout",
-    "launchMode": "maximized",
+    "defaultProfile": "{2ece5bfe-50ed-5f3a-ab87-5cd4baafed2b}",
     "newTabMenu": 
     [
         {
@@ -63,10 +60,8 @@
         "list": 
         [
             {
-                "commandline": "pwsh.exe",
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
                 "hidden": false,
-                "icon": "C:\\Program Files\\PowerShell\\7\\assets\\Powershell_black.ico",
                 "name": "Windows PowerShell",
                 "tabTitle": "PowerShell"
             },
@@ -77,22 +72,26 @@
                 "tabTitle": "Cmd"
             },
             {
+                "commandline": "\"C:\\Program Files\\Git\\bin\\sh.exe\" --login",
+                "guid": "{2ece5bfe-50ed-5f3a-ab87-5cd4baafed2b}",
+                "hidden": false,
+                "name": "Git Bash",
+                "startingDirectory": "%HOMEDRIVE%%HOMEPATH%",
+                "tabTitle": "Git Bash"
+            },
+            {
                 "colorScheme": "Vintage",
                 "commandline": "%LOCALAPPDATA%\\Far Manager x64\\Far.exe",
                 "guid": "{4bdc9186-4593-4fe5-8dd1-f109c77c5fd7}",
-                "icon": "C:\\Users\\juso\\AppData\\Local\\Far Manager x64\\VisualElements\\large.png",
                 "name": "Far Manager",
                 "suppressApplicationTitle": true,
                 "tabTitle": "Far Manager"
             },
             {
-                "commandline": "\"C:\\Program Files\\Git\\bin\\sh.exe\" --login",
-                "guid": "{2ece5bfe-50ed-5f3a-ab87-5cd4baafed2b}",
+                "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
                 "hidden": false,
-                "icon": "C:\\Program Files\\Git\\mingw64\\share\\git\\git-for-windows.ico",
-                "name": "Git Bash",
-                "startingDirectory": "%HOMEDRIVE%%HOMEPATH%",
-                "tabTitle": "Git Bash"
+                "name": "PowerShell",
+                "source": "Windows.Terminal.PowershellCore"
             }
         ]
     },
