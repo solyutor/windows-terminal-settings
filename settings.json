@@ -78,9 +78,9 @@
             },
             {
                 "colorScheme": "Vintage",
-                "commandline": "%LOCALAPPDATA%\\Far Manager x64\\Far.exe",
+                "commandline": "%PROGRAMFILES%\\Far Manager\\Far.exe",
                 "guid": "{4bdc9186-4593-4fe5-8dd1-f109c77c5fd7}",
-                "icon": "C:\\Users\\juso\\AppData\\Local\\Far Manager x64\\VisualElements\\large.png",
+                "icon": "%PROGRAMFILES%\\Far Manager\\VisualElements\\large.png",
                 "name": "Far Manager",
                 "suppressApplicationTitle": true,
                 "tabTitle": "Far Manager"
@@ -91,6 +91,7 @@
                 "hidden": false,
                 "icon": "C:\\Program Files\\Git\\mingw64\\share\\git\\git-for-windows.ico",
                 "name": "Git Bash",
+                "source": "Git",
                 "startingDirectory": "%HOMEDRIVE%%HOMEPATH%",
                 "tabTitle": "Git Bash"
             }
