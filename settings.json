@@ -91,7 +91,6 @@
                 "hidden": false,
                 "icon": "C:\\Program Files\\Git\\mingw64\\share\\git\\git-for-windows.ico",
                 "name": "Git Bash",
-                "source": "Git",
                 "startingDirectory": "%HOMEDRIVE%%HOMEPATH%",
                 "tabTitle": "Git Bash"
             }
